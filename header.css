@@ -82,4 +82,8 @@
   .nav__listitemdrop li:hover, .nav__listitemdrop li:focus {
     background-color: #1912a362;
   }
-  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+ }
